@@ -21,6 +21,8 @@ html, body, page {
 }
 #q{
     /*background-color: white;*/
+    background-image: url('../images/0.jpg');
+    background-size: 100% 100%;
     animation: q 10s infinite;
 }
 #d{
@@ -37,34 +39,35 @@ html, body, page {
     0%{opacity: 0}
     25%{opacity: 0}
     50%{opacity: 0}
-    90%{opacity: 100}
-    100%{opacity: 100}
+    95%{opacity: 100}
+    100%{opacity: 0}
 }
 @keyframes c{
     0%{opacity: 0}
     25%{opacity: 100}
     50%{opacity: 0}
     75%{opacity: 0}
-    100%{opacity: 100}
+    100%{opacity: 0}
 }
 @keyframes x{
     0%{opacity: 0}
     25%{opacity: 0}
     50%{opacity: 100}
     75%{opacity: 0}
-    100%{opacity: 100}
+    100%{opacity: 0}
 }
 @keyframes q{
     0%{opacity: 0}
     25%{opacity: 0}
     50%{opacity: 0}
     75%{opacity: 100}
-    100%{opacity: 100}
+    100%{opacity: 0}
 }
 @keyframes d{
     0%{opacity: 0}
     25%{opacity: 0}
     50%{opacity: 0}
     75%{opacity: 0}
-    100%{opacity: 100}
+    80%{opacity: 100}
+    100%{opacity: 0;}
 }
